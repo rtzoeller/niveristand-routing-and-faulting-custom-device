@@ -117,7 +117,19 @@
             <Path>SLSC Plugins\Modules\SLSC Switch\Windows\SLSC Switch Configuration.llb\Export Configuration RTM.vi</Path>
           </Item2Launch>
         </MenuItem>
-      </RunTimeMenu>
+        <MenuItem>
+          <GUID>7ff2457e-c883-4619-b95d-bc5366f24c0d</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Chassis Info</eng>
+            <loc>Chassis Info</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>SLSC Plugins\Modules\SLSC Switch\Windows\SLSC Switch Configuration.llb\Chassis Info RTM.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+       </RunTimeMenu>
       <ButtonList>
         <Button>
           <ID>Autodetect</ID>
@@ -219,7 +231,32 @@
             <loc>Export</loc>
           </Documentation>
         </Button>
-      </ButtonList>
+        <Button>
+          <ID>Chassis Info</ID>
+          <Glyph>
+            <Type>To Application Data Dir</Type>
+            <Path>System Explorer\Glyphs\NI-XNET DropFrames.png</Path>
+          </Glyph>
+          <Type>Dialog</Type>
+          <ReferencedGUID>7ff2457e-c883-4619-b95d-bc5366f24c0d</ReferencedGUID>
+          <ButtonText>
+            <eng>Chassis Info</eng>
+            <loc>Chassis Info</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Chassis Info</eng>
+            <loc>Chassis Info</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Display SLSC chassis information.</eng>
+            <loc>Display SLSC chassis information.</loc>
+          </TipStrip>
+          <Documentation>
+            <eng>Chassis Info</eng>
+            <loc>Chassis Info</loc>
+          </Documentation>
+        </Button>
+       </ButtonList>
       <ActionVIOnCompile>
         <Type>To Common Doc Dir</Type>
         <Path>SLSC Plugins\Modules\SLSC Switch\Windows\SLSC Switch Configuration.llb\ActionVIOnCompile.vi</Path>

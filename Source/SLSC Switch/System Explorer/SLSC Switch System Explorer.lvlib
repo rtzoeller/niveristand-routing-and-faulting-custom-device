@@ -15,6 +15,7 @@
 			</Item>
 			<Item Name="RTM" Type="Folder">
 				<Item Name="Autodetect RTM.vi" Type="VI" URL="../Autodetect RTM.vi"/>
+				<Item Name="Chassis Info RTM.vi" Type="VI" URL="../Chassis/Chassis Info RTM.vi"/>
 				<Item Name="Export Configuration RTM.vi" Type="VI" URL="../Export Configuration RTM.vi"/>
 				<Item Name="Import Configuration RTM.vi" Type="VI" URL="../Import Configuration RTM.vi"/>
 				<Item Name="Load from JSON RTM.vi" Type="VI" URL="../Load from JSON RTM.vi"/>
