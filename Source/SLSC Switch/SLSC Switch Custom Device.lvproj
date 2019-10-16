@@ -333,6 +333,7 @@
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="NI_VS Workspace ExecutionAPI.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Execution/Workspace/NI_VS Workspace ExecutionAPI.lvlib"/>
 				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
 				<Item Name="NI_XML.lvlib" Type="Library" URL="/&lt;vilib&gt;/xml/NI_XML.lvlib"/>
@@ -552,6 +553,7 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Log In Dialog.vi" Type="VI" URL="../System Explorer/Chassis/SubVIs/Log In Dialog.vi"/>
+			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -587,6 +589,9 @@
 				<Item Name="SLSC Switch Consumer.lvclass" Type="LVClass" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/SLSC Switch Consumer/SLSC Switch Consumer.lvclass"/>
 				<Item Name="SLSC Switch Init Parameters.lvclass" Type="LVClass" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/SLSC Switch Init Parameters/SLSC Switch Init Parameters.lvclass"/>
 				<Item Name="SLSC Switch.lvlib" Type="Library" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/vi.lib/SLSC_Switch/SLSC Switch.lvlib"/>
+			</Item>
+			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Update Config Tree.vi" Type="VI" URL="../System Explorer/Chassis/SubVIs/Update Config Tree.vi"/>
 			<Item Name="Update Device Properties Table.vi" Type="VI" URL="../System Explorer/Chassis/SubVIs/Update Device Properties Table.vi"/>
