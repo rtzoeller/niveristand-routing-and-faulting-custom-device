@@ -76,12 +76,12 @@
 				<Item Name="Assets" Type="Folder">
 					<Item Name="config.ini" Type="Document" URL="../Tests/System/Assets/config.ini"/>
 					<Item Name="Switch_and_RaF.nivssdf" Type="Document" URL="../Tests/System/Assets/Switch_and_RaF.nivssdf"/>
-					<Item Name="Switch_and_RaF_Diff_Resource.nivssdf" Type="Document" URL="../Tests/System/Assets/Switch_and_RaF_Diff_Resource.nivssdf"/>
 					<Item Name="Switch_and_RaF_Initial_States.nivssdf" Type="Document" URL="../Tests/System/Assets/Switch_and_RaF_Initial_States.nivssdf"/>
 					<Item Name="Switch_and_RaF_No_Routing_Channels.nivssdf" Type="Document" URL="../Tests/System/Assets/Switch_and_RaF_No_Routing_Channels.nivssdf"/>
 					<Item Name="Switch_and_RaF_Rich_States.nivssdf" Type="Document" URL="../Tests/System/Assets/Switch_and_RaF_Rich_States.nivssdf"/>
 					<Item Name="Switch_No_RaF.nivssdf" Type="Document" URL="../Tests/System/Assets/Switch_No_RaF.nivssdf"/>
 					<Item Name="Switch_and_RaF_Invalid_Switch_Resource.nivssdf" Type="Document" URL="../Tests/System/Assets/Switch_and_RaF_Invalid_Switch_Resource.nivssdf"/>
+					<Item Name="Switch_and_RaF_RT.nivssdf" Type="Document" URL="../Tests/System/Assets/Switch_and_RaF_RT.nivssdf"/>
 				</Item>
 				<Item Name="Routing and Faulting System Tests.lvclass" Type="LVClass" URL="../Tests/System/Routing and Faulting System Tests.lvclass"/>
 			</Item>
@@ -330,6 +330,7 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVComboBoxStrsAndValuesArrayTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVComboBoxStrsAndValuesArrayTypeDef.ctl"/>
 				<Item Name="lveventtype.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/lveventtype.ctl"/>
+				<Item Name="LVPoint32TypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPoint32TypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="Match Regular Expression_Execute.vi" Type="VI" URL="/&lt;vilib&gt;/regexp/Match Regular Expression_Execute.vi"/>
 				<Item Name="Match Regular Expression_ExecuteOffsets.vi" Type="VI" URL="/&lt;vilib&gt;/regexp/Match Regular Expression_ExecuteOffsets.vi"/>

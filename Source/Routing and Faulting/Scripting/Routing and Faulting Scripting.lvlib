@@ -83,20 +83,28 @@
 	</Item>
 	<Item Name="Types" Type="Folder"/>
 	<Item Name="Utility" Type="Folder">
-		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="private" Type="Folder">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-			<Item Name="Validate RaF Custom Device Reference.vi" Type="VI" URL="../Utility/Validate RaF Custom Device Reference.vi"/>
-			<Item Name="Validate Routing Channels Reference.vi" Type="VI" URL="../Utility/Validate Routing Channels Reference.vi"/>
-			<Item Name="Validate Routing Channel Reference.vi" Type="VI" URL="../Utility/Validate Routing Channel Reference.vi"/>
+			<Item Name="Add Module.vi" Type="VI" URL="../Utility/Add Module.vi"/>
+			<Item Name="Create Unique Module Identifier.vi" Type="VI" URL="../Utility/Create Unique Module Identifier.vi"/>
+			<Item Name="Get Module Identifier.vi" Type="VI" URL="../Utility/Get Module Identifier.vi"/>
+			<Item Name="Get Module Identifiers.vi" Type="VI" URL="../Utility/Get Module Identifiers.vi"/>
+			<Item Name="Get Module Path from Identifier.vi" Type="VI" URL="../Utility/Get Module Path from Identifier.vi"/>
+			<Item Name="Get Module Property Name.vi" Type="VI" URL="../Utility/Get Module Property Name.vi"/>
+			<Item Name="Get Routing and Faulting Parent Ref.vi" Type="VI" URL="../Utility/Get Routing and Faulting Parent Ref.vi"/>
 			<Item Name="Validate Endpoint Aliases Reference.vi" Type="VI" URL="../Utility/Validate Endpoint Aliases Reference.vi"/>
+			<Item Name="Validate RaF Custom Device Reference.vi" Type="VI" URL="../Utility/Validate RaF Custom Device Reference.vi"/>
 			<Item Name="Validate Reference by GUID.vi" Type="VI" URL="../Utility/Validate Reference by GUID.vi"/>
 			<Item Name="Validate Reference by Name.vi" Type="VI" URL="../Utility/Validate Reference by Name.vi"/>
+			<Item Name="Validate Routing Channel Reference.vi" Type="VI" URL="../Utility/Validate Routing Channel Reference.vi"/>
+			<Item Name="Validate Routing Channels Reference.vi" Type="VI" URL="../Utility/Validate Routing Channels Reference.vi"/>
 		</Item>
 		<Item Name="Check State Name and Value Uniqueness.vi" Type="VI" URL="../Routing Channel/Check State Name and Value Uniqueness.vi"/>
 		<Item Name="Check State-Value Table.vi" Type="VI" URL="../Routing Channel/Check State-Value Table.vi"/>
 		<Item Name="Connection to String.vi" Type="VI" URL="../Utility/Connection to String.vi"/>
 		<Item Name="Connections to Strings.vi" Type="VI" URL="../Utility/Connections to Strings.vi"/>
+		<Item Name="Get BaseNodeType.vi" Type="VI" URL="../Utility/Get BaseNodeType.vi"/>
 		<Item Name="String to Connection.vi" Type="VI" URL="../Utility/String to Connection.vi"/>
 		<Item Name="Strings to Connections.vi" Type="VI" URL="../Utility/Strings to Connections.vi"/>
 	</Item>
